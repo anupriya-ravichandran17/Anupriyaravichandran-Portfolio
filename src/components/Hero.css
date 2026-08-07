@@ -1,0 +1,59 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 80px;
+    min-height: 85vh;   /* 100vh irundha replace with 85vh */
+    
+    background: #0f172a;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+.hero-text{
+    width:55%;
+}
+
+.hero-text h3{
+    font-size:28px;
+}
+
+.hero-text h1{
+    font-size:60px;
+    margin:10px 0;
+    color:white;
+}
+
+.hero-text h2{
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:18px;
+    line-height:1.7;
+    color: white;
+}
+
+button{
+    margin-top:30px;
+    padding:12px 25px;
+    border:none;
+    background:#38bdf8;
+    color:white;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0ea5e9;
+}
+
+.hero-image img{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #38bdf8;
+}

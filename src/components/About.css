@@ -1,0 +1,27 @@
+.about{
+    padding:80px;
+    background:#111827;
+    color:white;
+    text-align:center;
+}
+
+.about h2{
+    font-size:40px;
+    color:#38bdf8;
+    margin-bottom:40px;
+}
+
+.about-card{
+    max-width:900px;
+    margin:auto;
+    background:#1f2937;
+    padding:40px;
+    border-radius:15px;
+    line-height:1.8;
+    font-size:18px;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+.about-card p{
+    margin-bottom:20px;
+}

@@ -1,0 +1,44 @@
+.education{
+    padding:80px;
+    background:#111827;
+    color:white;
+    text-align:center;
+}
+
+.education h2{
+    font-size:40px;
+    color:#38bdf8;
+    margin-bottom:50px;
+}
+
+.education-container{
+    display:flex;
+    justify-content:center;
+}
+
+.education-card{
+    width:700px;
+    background:#1f2937;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.education-card:hover{
+    transform:translateY(-8px);
+}
+
+.education-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.education-card h4{
+    margin-bottom:10px;
+}
+
+.education-card p{
+    margin:10px 0;
+    line-height:1.7;
+}
