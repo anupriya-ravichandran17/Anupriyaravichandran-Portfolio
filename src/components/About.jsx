@@ -11,11 +11,11 @@ function About() {
         <p>
           I am <strong>Anupriya R</strong>, a Final Year Computer Science and
           Engineering student at NPR College of Engineering and Technology with
-          a CGPA of 9.0.
+          a CGPA 8.75.
         </p>
 
         <p>
-          I have internship experience in UI/UX Design and Full Stack
+          I have internship experience in UI/UX Design and MERN Stack
           Development. I enjoy building responsive, user-friendly web
           applications using React.js, Node.js, Express.js, MongoDB, and Flask.
         </p>
