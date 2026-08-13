@@ -17,11 +17,14 @@ function Hero() {
           applications using React, Node.js, Express.js, and MongoDB.
         </p>
 
-        <div className="buttons">
-          <a href="/Anupriya R (RESUME) (1) (1).pdf" target="_blank">
-            <button>Download Resume</button>
-          </a>
-        </div>
+       <div className="buttons">
+  <button
+    type="button"
+    onClick={() => window.open("/resume.pdf", "_blank")}
+  >
+    Download Resume
+  </button>
+</div>
       </div>
 
       <div className="hero-image">
