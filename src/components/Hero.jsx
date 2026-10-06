@@ -7,7 +7,7 @@ function Hero() {
       <div className="hero-text">
         <h3>Hello, I'm</h3>
 
-        <h1>Anupriyaravichandran</h1> <br></br>
+        <h1>Anupriyaravichandran</h1> 
 
         <h2>Full Stack Developer + UI&UX Designer</h2>
 
@@ -27,9 +27,7 @@ function Hero() {
 </div>
       </div>
 
-      <div className="hero-image">
-        <img src="/MY IMG 1.jpeg" alt="Anupriya" />
-      </div>
+      
       
 
     </section>

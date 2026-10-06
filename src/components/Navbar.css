@@ -33,3 +33,31 @@
 .nav-links a:hover{
     color:#38bdf8;
 }
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+        position: sticky;
+        top: 0;
+    }
+
+    .logo {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 15px;
+        width: 100%;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+}
