@@ -4,7 +4,7 @@
     align-items: center;
 
     padding: 80px;
-    min-height: 85vh;   /* 100vh irundha replace with 85vh */
+    min-height: 85vh;  
     
     background: #0f172a;
     border-bottom: 1px solid rgba(255,255,255,0.12);
@@ -57,4 +57,49 @@ button:hover{
     border-radius:50%;
     object-fit:cover;
     border:5px solid #38bdf8;
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+        min-height: auto;
+        gap: 35px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h3 {
+        font-size: 22px;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+        margin: 8px 0;
+    }
+
+    .hero-text h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    button {
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .hero-image img {
+        width: 230px;
+        height: 230px;
+    }
 }
